@@ -1,0 +1,1398 @@
+/* ===================================
+    Google fonts
+====================================== */
+
+@font-face {
+  font-family: "Sk-Modernist-Bold";
+  src: url(./fonts/Sk-Modernist-Bold.otf);
+}
+@font-face {
+  font-family: "Sk-Modernist-Mono";
+  src: url(./fonts/Sk-Modernist-Mono.otf);
+}
+@font-face {
+  font-family: "Sk-Modernist-Regular";
+  src: url(./fonts/Sk-Modernist-Regular.otf);
+}
+body {
+  font-family: "Sk-Modernist-Regular";
+  font-size: 15px;
+  background-color: #fff;
+  color: #000;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+section,
+.section-padding {
+  position: relative;
+  padding: 7.5rem 0;
+  overflow: hidden;
+}
+section {
+  overflow-x: hidden;
+}
+
+.portfolio-padding {
+  padding: 7.5rem 0 4rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Sk-Modernist-Regular", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1;
+}
+h1 {
+  font-size: 72px;
+}
+h2 {
+  font-size: 3rem;
+}
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: "Sk-Modernist-Regular", sans-serif;
+  color: #535353;
+}
+img {
+  max-width: 100%;
+}
+:focus {
+  outline: none !important;
+}
+/* Width */
+a,
+a:active,
+a:focus,
+a:hover {
+  text-decoration: none !important;
+  outline: none;
+  color: #fff;
+}
+a:focus,
+a:hover {
+  color: #fff;
+}
+a,
+*::before,
+*::after,
+img,
+span,
+input,
+button,
+.navbar,
+.fixedmenu,
+.tp-bullet,
+.owl-dot,
+.owl-prev,
+.owl-next {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+i::before,
+i::after {
+  -webkit-transition: all 0s ease;
+  -o-transition: all 0s ease;
+  transition: all 0s ease;
+}
+/* transition none */
+.no-transition * {
+  transition-timing-function: initial;
+  -moz-transition-timing-function: initial;
+  -webkit-transition-timing-function: initial;
+  -o-transition-timing-function: initial;
+  -ms-transition-timing-function: initial;
+  transition-duration: 0s;
+  -moz-transition-duration: 0s;
+  -webkit-transition-duration: 0s;
+  -o-transition-duration: 0s;
+  -ms-transition-duration: 0s;
+}
+.no-animation {
+  animation: none !important;
+}
+.no-transform {
+  transform: none !important;
+}
+::selection {
+  color: #0008;
+  background: #cbfc37;
+}
+::-webkit-scrollbar-track {
+  background-color: #e9edf0;
+  border-left: 1px solid #ededed;
+}
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: #cbfc37;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbfc37;
+}
+#more {
+  display: none;
+}
+.read-more-btn {
+  background: transparent;
+  color: #fff;
+  border: none;
+  transition: 1s;
+}
+:focus {
+  outline: none !important;
+}
+
+/* Scroll to top start */
+#scroll {
+  position: fixed;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  bottom: 15px;
+  right: 15px;
+  background: #cbfc37;
+  text-indent: -9999px;
+  border: 1px solid #000;
+  display: none;
+  border-radius: 50px;
+  z-index: 999;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#scroll span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -8px;
+  margin-top: -12px;
+  height: 0;
+  width: 0;
+  border: 8px solid transparent;
+  border-bottom-color: #4c4b4b;
+}
+
+#scroll:hover {
+  background: #7d9b24;
+  opacity: 1;
+}
+
+/* ================ Header ============================
+  ======================================================= */
+.navbar {
+  position: fixed;
+  background: #000;
+  z-index: 999;
+  width: 100%;
+}
+.navbar-brand {
+  width: 70px;
+}
+.navbar-nav .nav-link {
+  color: #fff;
+  font-family: "Sk-Modernist-Regular";
+}
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+}
+.navbar > .container-fluid {
+  width: 90%;
+}
+.navbar-expand-xl .navbar-collapse {
+  justify-content: flex-end;
+}
+.nav-item {
+  position: relative;
+}
+.nav-item::before {
+  content: "";
+  top: 0;
+  right: 0;
+  width: 0%;
+  position: absolute;
+  border-top: 1px solid #cbfc37;
+  transition: all 0.4s;
+}
+.nav-item::after {
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  position: absolute;
+  border-bottom: 1px solid #cbfc37;
+  transition: all 0.4s;
+}
+
+.nav-item:hover::after,
+.nav-item:hover::before {
+  width: 100%;
+}
+
+.enq-btn {
+  background: #cbfc37;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 30px;
+  font-family: "Sk-Modernist-Regular";
+  transition: all 0.4s;
+}
+
+.enq-btn:hover {
+  background: #000;
+  color: #cbfc37;
+  transform: scaleX(1.2);
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler:active {
+  border: 1px solid #cbfc37;
+}
+/* =============== Header End =======================
+  =====================================================*/
+/* ================ Home page start ===================
+  ======================================================= */
+.image-sec {
+  width: 100%;
+  background-image: url("../images/intro-bg-img.png");
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding: 100px 0 0 0;
+  background-size: cover;
+}
+.image-sec .image-cls {
+  position: relative;
+}
+
+.image-sec .image-cls .image_front {
+  width: 100%;
+}
+.image-sec .image-cls .image_abs {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 0%);
+  z-index: 2;
+  width: 50%;
+}
+.home-intro {
+}
+
+.video-sec-one #desktop,
+.video-sec #desktop {
+  display: block;
+}
+.video-sec-one #mobile,
+.video-sec #mobile {
+  display: none;
+}
+/* .video-sec::before {
+    content: "";
+    background: rgba(20, 34, 71, 0.44);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+  } */
+
+.video-sec-one .video-res-two,
+.video-sec .video-res {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  position: relative;
+  object-fit: cover;
+}
+
+.video-sec .video-wrap {
+  position: relative;
+  margin-bottom: 100px;
+}
+.video-sec-one .video-wrap-one {
+}
+.video-wrap .barbell {
+  position: absolute;
+  left: 0;
+  bottom: -8%;
+  width: 20%;
+}
+/* .video-sec .video-wrap::after {
+  content: url(../images/icons/barbell.png);
+  position: absolute;
+  width: 100px;
+  height: auto;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+} */
+/* .video-sec .video-wrap {
+  position: relative;
+} */
+
+.home-intro {
+  background: #cbfc37;
+  padding: 5.5rem 0 0 0;
+}
+.home-intro .intro-content {
+  width: 75%;
+  margin: 20px auto;
+}
+.home-intro .intro-content h1 {
+  color: #000;
+  text-align: center;
+  font-family: "Sk-Modernist-Bold";
+}
+
+.home-intro .intro-content p {
+  font-size: 21px;
+  color: #4c5e12;
+  text-align: center;
+  line-height: 32px;
+}
+
+.scroll_cls {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgba(0 0 0/0.1);
+  margin-top: 50px;
+}
+
+.scroll_cls div {
+  display: inline-block;
+  margin: 5px 10px;
+}
+
+.scroll_cls div span {
+  font-size: 25px;
+  margin-left: 10px;
+  vertical-align: middle;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.feature-sec {
+}
+.feature-sec h1 {
+  font-size: 5rem;
+  padding: 0 0 10px 25px;
+}
+.accordion-item {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #cbfc37;
+}
+.accordion-button:not(.collapsed) {
+  color: #000;
+  background-color: transparent;
+  font-size: 30px;
+  font-weight: 600;
+}
+.accordion-body {
+  color: #000;
+  font-size: 21px;
+  line-height: 1.4em;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../images/icons/minus-solid.svg");
+
+  transform: rotate(-180deg);
+}
+.accordion-button::after {
+  background-image: url("../images/icons/plus-solid.svg");
+}
+.accordion-button:focus {
+  z-index: 3;
+  border-color: transparent;
+  outline: none;
+  box-shadow: 0 0 0 0.25rem rgb(102 54 52 / 25%);
+}
+.accordion-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 1.25rem;
+  font-size: 2rem;
+  color: #000;
+  font-weight: bold;
+  text-align: left;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  overflow-anchor: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    border-radius 0.15s ease;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+.feature-video {
+}
+.feature-video video {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  height: 600px;
+}
+
+/* ======================== Ftv GYM Equipments Page start ======================
+================================================================================ */
+.phil-sec {
+}
+.phil-sec h1{
+  font-size: 5rem;
+  font-weight: bold;
+  padding-bottom: 25px;
+}
+.phil-gradient,
+.phil-card {
+  padding: 20px;
+  background: linear-gradient(
+    135deg,
+    #e8e7e7 0%,
+    #e8e7e7 75%,
+    #cbfc37 75%,
+    #cbfc37 100%
+  );
+  overflow: hidden;
+}
+.phil-card .phil-content {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.phil-gradient {
+  margin-top: 3%;
+  align-items: center;
+}
+.phil-content-two h2,
+.phil-card .phil-content h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  display: inline-block;
+  border-bottom: 4px solid #cbfc37;
+  padding-bottom: 10px;
+}
+.phil-content-two p,
+.phil-card .phil-content p {
+  font-size: 1.5rem;
+}
+.phil-content-two {
+}
+/* .phil-content-two h2{
+  display: inline-block;
+  border-bottom: 4px solid #cbfc37;
+  padding-bottom: 10px;
+} */
+.phil-content-two p {
+}
+.phil-image-two img {
+}
+.phil-card .phil-image {
+}
+.phil-image-two img,
+.phil-card .phil-image img {
+  position: relative;
+  right: -20%;
+  bottom: -80px;
+}
+/* ======================== Ftv GYM Equipments Page End ========================
+================================================================================ */
+
+/* ======================= Footer style start ==========================
+========================================================================*/
+.myFluid {
+  width: 100%;
+  height: auto;
+}
+.myContainer {
+  width: 90%;
+  margin: auto;
+}
+.part1 {
+  padding: 50px 0;
+  background: #333;
+}
+.part2 {
+  padding: 20px 0;
+  background: #000;
+}
+.part2 .myContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.part3 {
+  padding: 10px 0;
+  background: #cbfc37;
+}
+.myGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: space-between;
+}
+footer h1 {
+  font-size: 3.5rem;
+  line-height: 1.2;
+  text-transform: capitalize;
+  color: #fff;
+}
+.myFluid form {
+  width: 100%;
+  background: linear-gradient(#0003, #0003);
+  padding: 5px;
+  padding-left: 20px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.myFluid form input {
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 1rem;
+}
+.myFluid form button {
+  background: #cbfc37;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  list-style: none;
+}
+.links li a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 20px;
+}
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+}
+.social li a {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-left: 20px;
+}
+.copyright {
+  text-align: center;
+  color: #000;
+}
+/* ====================== Footer style End ===============================
+==========================================================================*/
+
+/* ======================Michel Adam page start =========================
+========================================================================= */
+.michel-img-sec {
+  background: #000;
+  padding: 0 0;
+  position: relative;
+  padding-top: 10%;
+}
+.michel-img-sec .michel-img {
+}
+.michel-img-sec .michel-img img {
+  width: 100%;
+}
+.michel-img-sec .img-content {
+  position: absolute;
+  width: fit-content;
+  left: 50%;
+  bottom: 5%;
+  transform: translate(-50%, 0);
+}
+.michel-img-sec .img-content h1 {
+  color: #fff;
+  font-size: 5rem;
+  font-weight: 700;
+}
+.michel-img-sec .img-content p {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.michel-intro-sec {
+}
+.michel-adam-content {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.michel-adam-content p {
+  font-size: 2rem;
+  color: #000;
+  line-height: 1.5;
+}
+.michel-adam-content span {
+  display: inline-block;
+  line-height: 1.5;
+  font-size: 2rem;
+  font-weight: 700;
+  padding-bottom: 5px;
+  border-bottom: 4px solid #cbfc37;
+}
+.michel-video {
+  padding: 0 0 7.5rem 0;
+}
+/* ======================Michel Adam page End =========================
+========================================================================= */
+
+/* ======================Kashiff khan page start =========================
+========================================================================= */
+.kk-img-sec {
+  padding: 0 0 7.5rem 0;
+}
+.kk-img {
+  text-align: center;
+  width: 100%;
+}
+.kk-img img {
+  width: 80%;
+  height: 80vh;
+  object-fit: cover;
+  object-position: top;
+}
+/* ======================Kashiff khan page End =========================
+========================================================================= */
+.ftvgym-sec {
+}
+.ftvgym-video {
+  height: 100%;
+}
+.ftvgym-video video {
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+  height: 100%;
+}
+.ftvgym-content-one,
+.ftvgym-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 45px;
+  background: #cbfc37;
+}
+.ftvgym-content-one {
+  background: #acb0b9;
+}
+.ftvgym-content-one h1,
+.ftvgym-quality-content-one h1,
+.ftvgym-quality-content h1,
+.ftvgym-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.ftvgym-quality-content-one h1 {
+  color: #fff;
+}
+.ftvgym-content-one p,
+.ftvgym-quality-content-one p,
+.ftvgym-quality-content p,
+.ftvgym-content p {
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+.ftvgym-quality-content-one p {
+  color: #fff;
+}
+.number-cls-two,
+.number-cls {
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+  width: fit-content;
+}
+.number-cls-two h1,
+.number-cls-one h1,
+.number-cls h1 {
+  font-size: 7rem;
+  font-weight: bold;
+  color: rgba(0 0 0/0.1);
+}
+.number-cls-two h1 {
+  color: rgba(225 255 255/0.1);
+}
+.ftvgym-quality-sec {
+  padding: 0 0;
+}
+.ftvgym-quality-sec .quality-sec-container {
+  background: #e3e4e9;
+}
+
+.ftvgym-quality-sec .quality-sec-container-one {
+  background: linear-gradient(
+    177deg,
+    #383838 0%,
+    #343434 16%,
+    #343434 32%,
+    #111 46%,
+    #1d1d1d 100%
+  );
+}
+.ftvgym-quality-content-one,
+.ftvgym-quality-content {
+  width: 80%;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 45px;
+}
+.ftvgym-quality-content-one {
+  width: 90%;
+}
+.ftvgym-quality-content h1 {
+}
+.ftvgym-quality-content p {
+}
+.ftvgym-quality-img {
+}
+.ftvgym-quality-img img {
+  width: 100%;
+}
+.number-cls-one {
+  position: absolute;
+  top: 0;
+  left: 20%;
+  width: fit-content;
+}
+/* .number-cls-one h1{
+  font-size: 7rem;
+  font-weight: bold;
+  color: rgba(0 0 0/.1);
+} */
+/* ======================= Feature page start ==========================
+======================================================================== */
+
+/* ======================= FashionTv page start ==========================
+======================================================================== */
+.ftv-intro-sec {
+  padding: 7.5rem 0 0 0;
+}
+.ftv-intro-content {
+  padding: 10px 0 30px 0;
+  width: 80%;
+  margin: auto;
+}
+.ftv-intro-content h1 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+.ftv-intro-content p {
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 10px 0 0 0;
+  line-height: 1.5;
+}
+
+.keyfact-sec {
+  padding: 0 0 7.5rem 0;
+}
+.keyfact-heading {
+}
+.keyfact-heading h1 {
+  font-size: 4.5rem;
+  text-align: center;
+  font-weight: 800;
+}
+.keyfact-content {
+}
+.keyfact-content ul li {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  list-style-type: none;
+  font-size: 1.3rem;
+  line-height: 2;
+  padding-left: 15px;
+  padding-top: 0;
+}
+.keyfact-content ul li img {
+  padding: 10px 15px 0 0;
+}
+
+.ftv-intro-image-sec {
+  padding: 0 0 7.5rem 0;
+}
+.ftv-intro-image {
+  width: 80%;
+  margin: auto;
+}
+.ftv-intro-image img {
+}
+/* ======================= Fashiontv page start ==========================
+======================================================================== */
+
+/* channel page start */
+.ftv-channel {
+  /* background-color: #00000085; */
+  z-index: -2;
+}
+.ftv-channel-video-two video,
+.ftv-channel-video-one video {
+  width: 100%;
+}
+.ftv-channel-video-two #desktop,
+.ftv-channel-video-one #desktop {
+  display: block;
+}
+.ftv-channel-video-two #mobile,
+.ftv-channel-video-one #mobile {
+  display: none;
+}
+.ch-align-item {
+  align-items: center;
+}
+.row-direction {
+  flex-direction: row-reverse;
+}
+.ftv-channel-video-two,
+.ftv-channel-video-one {
+  position: relative;
+  padding: 5% 0;
+}
+/* .ftv-channel-video-two::before {
+  content: "";
+  background: #97b8a5;
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+.ftv-channel-video-one::before {
+  content: "";
+  background: #fe655d;
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+} */
+.prospetive-sec {
+  padding: 0 0;
+}
+.ftv-channel-content-one {
+  width: 80%;
+  margin: auto;
+}
+.ftv-channel-content-one h1 {
+  color: #000;
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+.ftv-channel-content-one ul li {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  list-style-type: none;
+  font-size: 1.3rem;
+  line-height: 2;
+  padding-left: 15px;
+  padding-top: 0;
+}
+.ftv-channel-content-one ul li img {
+  padding: 10px 15px 0 0;
+}
+.prospetive-content-sec {
+}
+.prospetive-content-container {
+  background: #f3f2f2;
+}
+.prospetive-sec p {
+  font-size: 1.3rem;
+  line-height: 2;
+}
+.prospetive-sec h2 {
+  font-weight: bold;
+}
+.prospetive-content {
+  width: 80%;
+  margin: auto;
+}
+.prospetive-content h1 {
+  color: #000;
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+.prospetive-content p {
+  font-size: 1.3rem;
+  line-height: 2;
+}
+.custome-padding {
+  padding: 5% 0 5% 0;
+}
+/* channel video End */
+/* channel page End */
+
+/* ================= License page start ========================
+================================================================ */
+.license-sec {
+}
+.license-sec .license-custome-container {
+  background: linear-gradient(
+    158deg,
+    rgb(186 184 184 / 50%) 0%,
+    rgb(255 240 235 / 50%) 60%,
+    rgb(52 49 48 / 20%) 60%,
+    rgba(55, 55, 55, 0.5) 100%
+  );
+}
+.license-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.license-content h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  padding-bottom: 21px;
+}
+.license-img {
+  width: 90%;
+  margin: auto;
+  transform: rotateY(180deg);
+}
+.license-img img {
+}
+
+/* button style start*/
+.download-btn {
+  backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: #cbfc37;
+  border-radius: 500px;
+  border-width: 0 0 0 0;
+  padding: 15px 45px 15px 20px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 900;
+  font-style: normal;
+  transition: all 0.4s;
+}
+.download-btn:hover {
+  color: #000;
+  transform: scaleX(1.2);
+}
+.download-btn > div {
+  color: #000;
+  font-size: 10px;
+  font-weight: initial;
+  font-style: normal;
+  text-align: center;
+  margin: 0 0 0 0;
+}
+.download-btn > i {
+  color: #000;
+  font-size: 1em;
+  border-radius: 500px;
+  border: 0 solid transparent;
+  border-width: 0 0 0 0;
+  padding: 15px 8px 8px 8px;
+  margin: 6px 6px 6px 6px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.download-btn > .ld {
+  font-size: initial;
+}
+/* button style End*/
+
+.lic-rate-sec {
+  padding: 0 0;
+}
+.lic-rate-content {
+}
+.lic-rate-content h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+}
+.lic-rate-content-one {
+  width: 95%;
+  padding: 20px;
+  border: 2px dashed #b4b4b4;
+  margin: auto;
+}
+.lic-rate-content-one h4 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+.lic-rate-content-one h4 span {
+  display: inline-block;
+  padding-bottom: 5px;
+  border-bottom: 4px solid #cbfc37;
+  font-weight: 600;
+}
+.lic-rate-para p {
+  padding-top: 10px;
+  text-align: center;
+  color: #0005;
+}
+
+.license-pre-sec {
+  padding: 5.5rem 0 0 0;
+}
+.license-pre-sec h1 {
+  padding-bottom: 25px;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.license-pre-heading {
+  border-left: 7px solid #cbfc37;
+}
+.license-pre-heading h2 {
+  font-size: 2.5rem;
+  padding-left: 30px;
+  text-align: start;
+  font-weight: bold;
+}
+.license-pre-para {
+  width: 90%;
+  margin: auto;
+}
+.license-pre-para p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+.row-padding {
+  padding: 3.5rem 0;
+}
+
+.license-brand-sec {
+  padding: 5.5rem 0;
+}
+
+.license-brand-custom-container {
+  padding: 3.5rem 0;
+  background: linear-gradient(
+    90deg,
+    rgb(203 252 55 / 100%) 0%,
+    rgb(203 252 55 / 100%) 30%,
+    rgb(222 226 230 / 44%) 30%,
+    rgb(222 226 230 / 44%) 100%
+  );
+}
+.license-brand-heading {
+}
+.license-brand-heading h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.license-brand-para {
+}
+.license-brand-para p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+/* ================= License page start ========================
+================================================================ */
+
+/* ===============================================================
+================================================================== */
+.image-sec {
+}
+
+.image-content-heading-one {
+  width: fit-content;
+  top: 50%;
+  left: 6%;
+  position: absolute;
+  color: #fff;
+  transform: translate(25%, -50%);
+}
+.image-content-heading-three h1,
+.image-content-heading-four h1,
+.image-content-heading-two h1,
+.image-content-heading-one h1 {
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+.image-content-heading-two {
+  width: fit-content;
+  right: 7%;
+  top: 50%;
+  transform: translate(0%, -50%);
+  position: absolute;
+  color: #fff;
+}
+.image-content-heading-three {
+  width: fit-content;
+  top: 50%;
+  left: 25%;
+  position: absolute;
+  color: #fff;
+  transform: translate(25%, -50%);
+}
+.image-content-heading-four {
+  width: fit-content;
+  right: 15%;
+  top: 50%;
+  transform: translate(-25%, -50%);
+  position: absolute;
+  color: #fff;
+}
+.image-content-heading-two h1 {
+}
+/* ===============================================================
+================================================================== */
+
+/* ===========career ,privacy policy & terms & conditions ============
+====================================================================== */
+
+.privacy-main {
+  position: relative;
+}
+.privacy-main .privacy-main-img img {
+  width: 100%;
+}
+.privacy-main-img:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgb(0 0 0 / 40%);
+}
+/* .privacy-main .privacy-main-img img::after{
+  background: #fc3d33;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: absolute;
+} */
+.privacy-img-text {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  width: 40%;
+}
+.privacy-img-text h1 {
+  font-size: 5rem;
+
+  color: #fff;
+}
+.privacy-content-main {
+  padding: 7.5rem 0;
+}
+.privacy-content {
+  width: 80%;
+  margin: auto;
+}
+.privacy-content h1 {
+  color: #000;
+  padding-bottom: 5px;
+  border-bottom: 4px solid #cbfc37;
+  display: inline-block;
+  font-size: 3.5rem;
+}
+.privacy-content p {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: #000;
+}
+.privacy-content-main1 {
+  padding: 0 0 5.5rem 0;
+}
+.privacy-content ul li {
+  font-size: 1.2rem;
+  list-style-type: disclosure-closed;
+  color: #000;
+  line-height: 1.8rem;
+}
+.privacy-content dl {
+  padding: 10px 0;
+}
+.privacy-content dl dt {
+  padding-bottom: 5px;
+  border-bottom: 4px solid #cbfc37;
+  display: inline-block;
+
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  padding: 10px 0;
+}
+.privacy-content dl dd {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  padding: 10px 0;
+}
+@media (max-width: 768px) {
+  .privacy-content {
+    width: 95%;
+    margin: auto;
+  }
+  .privacy-content-main1 {
+    padding: 0 0 3.5rem 0;
+  }
+  .privacy-img-text h1 {
+    font-size: 4rem;
+  }
+  .privacy-main .privacy-main-img img {
+    height: 60vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .privacy-content dl dd {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 768px) {
+  .privacy-content p {
+    font-size: 1.2rem;
+  }
+  .privacy-content ul li {
+    font-size: 1.2rem;
+  }
+  .privacy-content h1 {
+    font-size: 3rem;
+  }
+  .privacy-content-main {
+    padding: 5rem 0;
+  }
+}
+@media (max-width: 576px) {
+  .privacy-img-text h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .privacy-content h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 375px) {
+  .privacy-img-text h1 {
+    font-size: 2.5rem;
+  }
+  .privacy-content h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 280px) {
+  .privacy-img-text h1 {
+    font-size: 2rem;
+  }
+  .privacy-content p,
+  .privacy-content ul li {
+    font-size: 1rem;
+  }
+  .privacy-content dl dt {
+    font-size: 1.5rem;
+  }
+  .privacy-content-main1 {
+    padding: 0 0 3rem 0;
+  }
+  .privacy-content-main {
+    padding: 3.5rem 0;
+  }
+}
+/* ===========career ,privacy policy & terms & conditions ============
+====================================================================== */
+/* Enquiry Form start */
+.enquiry-form-sec {
+  background: #cbfc37;
+}
+.enquiry-form-sec h1 {
+  text-align: center;
+  color: #000;
+  font-weight: 700;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+}
+.enquiry-form .enquiry-width {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+.enquiry-form {
+  width: 100%;
+}
+.enquiry-form form select,
+.enquiry-form form select option,
+.enquiry-form form input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #000;
+  background: transparent;
+  color: #000;
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+/* .enquiry-form form select {
+  color: #000;
+} */
+
+.enquiry-form form button {
+  padding: 10px 35px;
+  border: 0;
+  color: #cbfc37;
+  background-color: #000;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 20px 0;
+  align-self: center;
+}
+
+/* Enquiry Form End */

@@ -1,0 +1,720 @@
+/* ==========1440px breakpoint ==============*/
+@media (max-width: 1440px) {
+  .image-content-heading-one {
+    left: 4%;
+  }
+}
+
+/* ==========1366px breakpoint ==============*/
+@media (max-width: 1366px) {
+  .image-content-heading-one {
+    left: 1%;
+  }
+  .image-content-heading-two {
+    right: 3%;
+  }
+  .number-cls-one {
+    left: 75%;
+}
+.ftvgym-quality-content-one,
+ .ftvgym-quality-content {
+  width: 100%;
+}
+}
+
+/* ==========1200px breakpoint ==============*/
+@media (max-width: 1200px) {
+  .image-content-heading-one {
+    left: 0%;
+    transform: translate(20%, -50%);
+  }
+  .image-content-heading-two {
+    right: 1%;
+  }
+  .ftv-channel-video-two,
+  .ftv-channel-video-one {
+    padding: 0 0;
+  }
+  .prospetive-content {
+    width: 90%;
+  }
+}
+
+/* ==========1110px breakpoint ==============*/
+@media (max-width: 1110px) {
+  .image-content-heading-two {
+    right: 3%;
+  }
+  .image-content-heading-three h1,
+  .image-content-heading-four h1,
+  .image-content-heading-two h1,
+  .image-content-heading-one h1 {
+    font-size: 4rem;
+  }
+  .ftv-intro-content h1 {
+    line-height: 1.2;
+  }
+}
+
+/* ==========1024px breakpoint ==============*/
+@media (max-width: 1024px) {
+  .image-content-heading-two {
+    right: 1%;
+  }
+  .michel-adam-content p {
+    font-size: 1.8rem;
+  }
+  .keyfact-heading h1 {
+    font-size: 4rem;
+  }
+  footer h1 {
+    font-size: 3rem;
+  }
+  .license-brand-heading h2 {
+    font-size: 2rem;
+  }
+  .ftv-channel-content-one {
+    width: 95%;
+  }
+  .navbar-nav {
+    align-items: center;
+  }
+  .number-cls-one {
+    left: 90%;
+}
+.ftvgym-quality-content-one, .ftvgym-quality-content {
+  width: 100%;
+  padding: 25px 20px;
+}
+.ftvgym-content h1 {
+  font-size: 2.5rem;
+}
+.ftvgym-content-one, .ftvgym-content {
+  padding: 70px 45px;
+}
+.license-content h1 {
+  text-align: center;
+}
+}
+
+/* ==========992px breakpoint ==============*/
+@media (max-width: 992px) {
+  .myGrid {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+  footer h1 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .enquiry-form-sec h1 {
+    font-size: 4rem;
+  }
+  .number-cls-one {
+    left: 75%;
+}
+}
+
+/* ==========872px breakpoint ==============*/
+@media (max-width: 872px) {
+}
+/* ==========768px breakpoint ==============*/
+@media (max-width: 768px) {
+  /* .image-content-heading-one {
+    left: 0%;
+    transform: translate(5%, -50%);
+} */
+  .image-content-heading-three h1,
+  .image-content-heading-four h1,
+  .image-content-heading-two h1,
+  .image-content-heading-one h1 {
+    font-size: 3rem;
+  }
+  .image-content-heading-two {
+    right: 3%;
+  }
+  .image-content-heading-one {
+    left: 5%;
+  }
+  .home-intro .intro-content {
+    width: 90%;
+  }
+  .video-sec .video-wrap {
+    margin-bottom: 50px;
+  }
+  .video-sec-one .video-res-two,
+  .video-sec .video-res {
+    width: 90%;
+  }
+
+  .phil-content-two h2,
+  .phil-card .phil-content h2 {
+    font-size: 3rem;
+  }
+  .phil-content-two p,
+  .phil-card .phil-content p {
+    font-size: 1.3rem;
+  }
+  .license-brand-heading h2 {
+    font-size: 1.8rem;
+  }
+  .license-pre-sec h1 {
+    font-size: 3rem;
+  }
+  .license-pre-heading h2 {
+    font-size: 2rem;
+  }
+  .lic-rate-content h1 {
+    font-size: 3rem;
+  }
+  .license-content h1 {
+    font-size: 3rem;
+  }
+  .ftv-channel-content-one h1 {
+    font-size: 2.5rem;
+  }
+  .ftv-channel-content-one ul li {
+    padding-left: 5px;
+  }
+  .ftv-channel-content-one ul li img {
+    padding: 10px 10px 0 0;
+  }
+  .ftvgym-content-one, .ftvgym-content {
+    padding: 15% 20px;   
+}
+.number-cls-two h1 {
+  color: rgba(0 0 0/0.1);
+}
+.number-cls-one {
+  left: 75%;
+  top: 69%;
+}
+.ftv-intro-content {
+  width: 90%;
+}
+}
+
+/* ==========576px breakpoint ==============*/
+@media (max-width: 576px) {
+  .video-sec-one #desktop,
+  .video-sec #desktop {
+    display: none;
+  }
+  .video-sec-one #mobile,
+  .video-sec #mobile {
+    display: block;
+  }
+  .video-sec-one video,
+  .video-sec video {
+    width: 100%;
+    object-fit: cover;
+    height: 90vh;
+    object-position: center;
+  }
+  .part2 .myContainer {
+    flex-direction: column;
+  }
+  .links {
+    margin-bottom: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+  .links li a {
+    margin-right: 0;
+    margin: 0 10px;
+  }
+  .social {
+    width: 100%;
+    justify-content: center;
+  }
+  .social li a {
+    margin-left: 0;
+    margin: 0 10px;
+  }
+  .michel-adam-content {
+    width: 100%;
+  }
+  .michel-img-sec .michel-img img {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    object-position: center;
+  }
+  .michel-img-sec .img-content h1 {
+    font-size: 4.5rem;
+  }
+  .ftv-intro-content {
+    width: 100%;
+    margin: auto;
+  }
+  .keyfact-sec {
+    padding: 0 0 5.5rem 0;
+  }
+  .image-content-heading-three h1,
+  .image-content-heading-four h1,
+  .image-content-heading-two h1,
+  .image-content-heading-one h1 {
+    font-size: 2.5rem;
+  }
+  .image-content-heading-two {
+    right: 0%;
+  }
+  .image-content-heading-one {
+    left: 1%;
+  }
+  .phil-card {
+    margin-top: 3%;
+  }
+  .phil-sec {
+    padding: 5.5rem 0;
+  }
+  .ftvgym-sec {
+    padding: 5.5rem 0;
+  }
+  .ftvgym-content-one,
+  .ftvgym-content {
+    padding: 15% 20px;
+    background: #cbfc37;
+  }
+  .ftvgym-quality-sec {
+    padding: 0;
+  }
+  .ftvgym-video video {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    object-position: center;
+  }
+  .ftvgym-content-one h1,
+  .ftvgym-quality-content-one h1,
+  .ftvgym-quality-content h1,
+  .ftvgym-content h1 {
+    font-size: 2.5rem;
+  }
+  .ftvgym-quality-content-one,
+  .ftvgym-quality-content {
+    width: 95%;
+    padding: 10px 35px;
+  }
+  .number-cls-one {
+    left: 65%;
+  }
+  .number-cls-two h1 {
+    color: rgba(0 0 0/0.1);
+  }
+  .number-cls-one h1 {
+    color: rgba(0 0 0/0.1);
+  }
+  .ftvgym-quality-sec .quality-sec-container-one {
+    padding: 5% 0;
+    background: linear-gradient(
+      193deg,
+      #383838b8 0%,
+      #343434cf 20%,
+      #343434cf 15%,
+      #111 35%,
+      #1d1d1d 100%
+    );
+  }
+
+  .image-sec {
+    padding: 100px 0 0 0;
+    padding-top: 50%;
+  }
+  .image-sec .image-cls .image_front {
+    height: 60vh;
+    object-fit: cover;
+    object-position: bottom;
+  }
+  .image-sec .image-cls .image_abs {
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0%);
+    z-index: 2;
+    width: 100%;
+  }
+  .image-content-heading-one {
+    top: -40%;
+    left: 10%;
+    transform: translate(25%, -50%);
+  }
+  .image-content-heading-two {
+    right: 13%;
+    top: -29%;
+    transform: translate(0%, -50%);
+  }
+  /* .image-content-heading-one {
+  top: -21%;
+  left: 6%;
+  transform: translate(25%, -50%);
+}
+.image-content-heading-two {
+  right: 7%;
+  top: -7%;
+  transform: translate(0%, -50%);
+} */
+  .image-content-heading-three {
+    top: -50%;
+    left: 15%;
+  }
+  .image-content-heading-four {
+    top: -50%;
+    right: 53%;
+  }
+  .license-brand-custom-container {
+    padding: 3.5rem 0;
+    background: linear-gradient(
+      180deg,
+      rgb(203 252 55 / 100%) 0%,
+      rgb(203 252 55 / 100%) 30%,
+      rgb(222 226 230 / 44%) 30%,
+      rgb(222 226 230 / 44%) 100%
+    );
+  }
+  .license-brand-para {
+    padding: 10% 1% 0 1%;
+  }
+  .license-content h1 {
+    text-align: center;
+  }
+  .license-content {
+    padding: 1rem 0;
+  }
+  .ftv-intro-image {
+    width: 100%;
+  }
+  .ftv-channel-content-one {
+    padding: 5% 0;
+  }
+  .enquiry-form .enquiry-width {
+    width: 100%;
+  }
+  .enquiry-form-sec h1 {
+    font-size: 3rem;
+  }
+  .phil-sec h1{
+    font-size: 4rem;
+  }
+}
+@media(max-width:540px){
+  .image-content-heading-one {
+    top: -34%;
+    left: 10%;
+    transform: translate(25%, -50%);
+}
+.image-content-heading-two {
+  right: 13%;
+  top: -24%;
+  transform: translate(0%, -50%);
+}
+}
+/* ==========425px breakpoint ==============*/
+@media (max-width: 425px) {
+  .links {
+    flex-direction: column;
+  }
+  .links li a {
+    display: block;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .michel-img-sec .img-content h1 {
+    font-size: 3rem;
+  }
+  .ftv-intro-content h1 {
+    font-size: 2.5rem;
+  }
+  .keyfact-heading h1 {
+    font-size: 3.5rem;
+  }
+  .keyfact-content ul li {
+    font-size: 1.1rem;
+  }
+  .image-content-heading-four {
+    top: -30%;
+    right: 42%;
+  }
+  .image-content-heading-three {
+    top: -30%;
+    left: 15%;
+  }
+  .ftv-intro-image-sec {
+    padding: 0 0 5.5rem 0;
+  }
+  .ftv-intro-sec {
+    padding: 5.5rem 0;
+  }
+  .prospetive-content {
+    width: 100%;
+    padding: 10px 0;
+  }
+  .prospetive-content h1 {
+    font-size: 3rem;
+  }
+  .prospetive-content-sec {
+    padding: 5.5rem 0;
+  }
+  .home-intro .intro-content h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .feature-video video {
+    object-position: center;
+    width: 100%;
+    object-fit: cover;
+    height: 80vh;
+  }
+  .accordion {
+    padding: 2.5rem 0;
+  }
+  .feature-sec {
+    padding: 5.5rem 0;
+  }
+  .video-wrap .barbell {
+   display: none;
+  }
+  .ftv-channel {
+    padding: 0 0 5.5rem 0;
+  }
+  .ftv-channel-content-one ul li {
+    line-height: 1.5;
+    padding: 10px 0;
+  }
+  .prospetive-content p {
+    line-height: 1.5;
+  }
+  .phil-image-two img,
+  .phil-card .phil-image img {
+    bottom: -20px;
+  }
+  .lic-rate-content-one {
+    width: 100%;
+  }
+  .image-content-heading-one {
+    top: -16%;
+  }
+  .image-content-heading-two {
+  top: -7%;
+  }
+  .accordion-button {
+    font-size: 1.6rem;
+}
+.phil-sec h1{
+  font-size: 3rem;
+}
+}
+
+/* ==========375px breakpoint ==============*/
+@media (max-width: 375px) {
+  footer h1 {
+    font-size: 3rem;
+  }
+  .michel-adam-content p {
+    font-size: 1.5rem;
+  }
+  .michel-intro-sec {
+    padding: 3.5rem 0;
+  }
+  .number-cls-two h1,
+  .number-cls-one h1,
+  .number-cls h1 {
+    font-size: 6rem;
+  }
+  .ftvgym-quality-content-one,
+  .ftvgym-quality-content {
+    width: 100%;
+    padding: 10px 15px;
+  }
+  .image-content-heading-three {
+    top: -21%;
+    left: 15%;
+  }
+  .image-content-heading-four {
+    top: -21%;
+    right: 37%;
+  }
+  .license-brand-para {
+    padding: 25% 1% 0 1%;
+  }
+  .ftv-intro-image img {
+    height: 450px;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+  }
+  .kk-img img {
+    width: 100%;
+  }
+  .feature-sec h1 {
+    font-size: 4rem;
+    padding: 0 0 10px 0;
+  }
+  .image-content-heading-one {
+    top: -12%;
+    left: 10%;
+    transform: translate(25%, -50%);
+  }
+  .image-content-heading-two {
+    right: 19%;
+    top: -3%;
+    transform: translate(0%, -50%);
+}
+}
+
+/* ==========320px breakpoint ==============*/
+@media (max-width: 320px) {
+  .ftvgym-content-one p,
+  .ftvgym-quality-content-one p,
+  .ftvgym-quality-content p,
+  .ftvgym-content p {
+    font-size: 1.1rem;
+  }
+  .number-cls-two,
+  .number-cls {
+    right: 2%;
+  }
+  .image-content-heading-four {
+    top: -21%;
+    right: 28%;
+  }
+  .lic-rate-content h1 {
+    font-size: 2.5rem;
+  }
+  .license-pre-sec h1 {
+    font-size: 2.5rem;
+  }
+  .home-intro .intro-content h1 {
+    font-size: 3rem;
+  }
+  .phil-card .phil-content {
+    padding: 2px;
+  }
+  .keyfact-heading h1 {
+    font-size: 3rem;
+  }
+  .keyfact-content ul li {
+    padding-left: 0px;
+  }
+  .michel-img-sec .img-content h1 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .michel-adam-content span {
+    line-height: 1.5;
+    font-size: 1.5rem;
+  }
+  .ftv-channel-content-one h1 {
+    font-size: 2.5rem;
+  }
+  .ftv-channel-content-one ul li {
+    font-size: 1.2rem;
+  }
+  .prospetive-content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  .prospetive-content h1 {
+    font-size: 2.5rem;
+  }
+  .image-content-heading-one {
+    top: -7%;
+    left: 1%;
+    transform: translate(25%, -50%);
+}
+.image-content-heading-two {
+  right: 16%;
+  top: 5%;
+  transform: translate(0%, -50%);
+}
+  .home-intro .intro-content {
+    width: 100%;
+  }
+  .enquiry-form-sec h1 {
+    font-size: 2.5rem;
+  }
+  .accordion-body {
+    font-size: 18px;
+}
+.michel-img-sec {
+  padding-top: 21%;
+}
+}
+
+/* ==========280px breakpoint ==============*/
+@media (max-width: 280px) {
+  .ftvgym-content-one h1,
+  .ftvgym-quality-content-one h1,
+  .ftvgym-quality-content h1,
+  .ftvgym-content h1 {
+    font-size: 2rem;
+  }
+  .home-intro .intro-content h1 {
+    font-size: 2.5rem;
+  }
+  .lic-rate-content-one h4,
+  .lic-rate-content h1 {
+    font-size: 2rem;
+  }
+  .number-cls-one {
+    left: 73%;
+}
+  .number-cls-two h1,
+  .number-cls-one h1,
+  .number-cls h1 {
+    font-size: 4rem;
+  }
+  .feature-sec h1 {
+    font-size: 3rem;
+  }
+  footer h1 {
+    font-size: 2rem;
+  }
+  .image-content-heading-four {
+    top: -21%;
+    right: 20%;
+  }
+  .license-pre-sec h1 {
+    font-size: 2rem;
+  }
+  .license-brand-para p,
+  .license-pre-para p {
+    font-size: 1.1rem;
+  }
+  .phil-content-two h2,
+  .phil-card .phil-content h2 {
+    font-size: 2.5rem;
+  }
+  .ftv-intro-content h1 {
+    font-size: 2rem;
+  }
+  .keyfact-heading h1 {
+    font-size: 2.5rem;
+  }
+  .michel-img-sec .img-content h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .michel-img-sec .img-content p {
+    font-size: 1.2rem;
+  }
+  .michel-adam-content p {
+    font-size: 1.2rem;
+  }
+  .ftv-channel-content-one ul li {
+    line-height: 1.5;
+  }
+  .prospetive-sec p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+  .image-content-heading-two {
+    right: 7%;
+    top: 5%;
+    transform: translate(0%, -50%);
+}
+.image-content-heading-one {
+  top: -4%;
+  left: 4%;
+  transform: translate(25%, -50%);
+}
+}
